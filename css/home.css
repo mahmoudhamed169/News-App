@@ -1,0 +1,129 @@
+
+nav {
+    height: 65px;
+    background: #D33C3C4D;
+   
+
+}
+h2 {
+    color: #fff;
+    font-family: "Cherry Bomb One", system-ui;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button {
+    color: #fff;
+    background-color: #262626;
+    width: 90px;
+    height: 31px;
+}
+#Home
+{
+    width: 100%;
+
+
+
+    
+}
+
+
+#leftMenu
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 65px;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 15px 8px 15px 32px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    
+}
+
+
+
+
+#Home h2
+{
+    margin-top: 200px;
+    
+}
+
+
+
+
+#Home h2,p
+{
+    text-align: center;
+    
+}
+
+
+
+
+.sidenav
+{
+    background-color: #414658;
+}
+
+
+
+
+.sidenav a:hover{
+    color:  A34A4A;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#home-content {
+    transition: margin-left .5s;
+    padding: 16px; 
+}
+
+#home-content h2
+{
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.img-container {
+    height: 250px;
+    background-color: #F5F5F5  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-info {
+    padding: 10px 0px;
+    height: 300px;
+    overflow: hidden;
+}
+
+  
+  
+
+
